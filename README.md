@@ -30,7 +30,7 @@ go build mesos-monitor.go
 
 * **-m**: Mesos host and port, default value ``http://localhost:5050``.
 * **-s**: StatsD host and port, default value ``localhost:8125``.
-* **--p**: Metric prefix to be used in StatsD.
+* **-p**: Metric prefix to be used in StatsD.
 * **-i**: Interval in seconds to collect metrics from Mesos, default value ``60``.
 * **-t**: Connection timeout in miliseconds to retrieve metrics from Mesos, default value ``100``.
 
